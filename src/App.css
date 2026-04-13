@@ -92,10 +92,11 @@ body {
   background: white;
   border-radius: 20px;
   padding: 30px;
-  max-width: 900px;
+  max-width: 1200px;
   width: 100%;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
   animation: slideUp 0.4s ease-out;
+  overflow-x: hidden;
 }
 
 .game-header {
