@@ -54,7 +54,7 @@ function App() {
     // Hanya kebakar jika ada perubahan urutan (dari lebih tinggi menjadi lebih rendah)
     if (currentRound > 1) {
       // Urutkan pemain berdasarkan poin ronde sebelumnya
-      const prevRoundTotals = players.map(p => p.totalPoints);
+      // const prevRoundTotals = players.map(p => p.totalPoints);
       const prevRoundData = players.map((p, i) => ({ ...p, idx: i }));
       const prevSorted = [...prevRoundData].sort((a, b) => b.totalPoints - a.totalPoints);
       

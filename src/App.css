@@ -74,7 +74,7 @@ body {
 }
 
 .player-input-group input {
-  padding: 12px;
+  padding: 5px;
   border: 2px solid #333;
   border-radius: 8px;
   font-size: 1em;
@@ -347,7 +347,7 @@ body {
   }
 
   .player-input-group input {
-    padding: 10px;
+    padding: 12px;
   }
 
   .scores-grid {
@@ -430,9 +430,12 @@ body {
   }
 
   .player-input-group input {
-    padding: 10px;
-    font-size: 0.95em;
+    padding: 8px;
+    font-size: 0.85em;
     border-radius: 6px;
+    height: 50px;
+    aspect-ratio: 1;
+    min-width: 50px;
   }
 
   .game-header {
